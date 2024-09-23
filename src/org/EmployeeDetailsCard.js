@@ -1,5 +1,5 @@
 import React from "react";
-import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import CloseIcon from '@mui/icons-material/Close';
 const styles = {
     card: {
         position: "absolute",
@@ -105,7 +105,7 @@ const EmployeeDetailsCard = (props) => {
     return (
         <div style={styles.card}>
             <button style={styles.cardCloseBtn} onClick={props.handleClose}>
-                <AccountBoxIcon />
+                <CloseIcon />
             </button>
             {props.employee.team === "" ? (
                 <div>
