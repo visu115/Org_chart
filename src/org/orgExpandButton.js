@@ -4,8 +4,10 @@ import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 
 const styles = {
     expandBtn: {
-        width: "30px",
-        height: "30px",
+        width: "40px",
+        height: "20px",
+        padding: '7px',
+        fontSize: '17px',
         margin: "auto",
         color: "#227c9d",
         backgroundColor: "#fef9ef",
@@ -16,7 +18,17 @@ const styles = {
         borderRadius: "50%",
         cursor: "pointer",
     },
+    arrow: {
+        width: "20px",
+        height: "8px",
 
+        margin: "auto",
+        color: "#227c9d",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        cursor: "pointer",
+    }
 };
 
 const CustomExpandButton = (node) => {
@@ -33,7 +45,7 @@ const CustomExpandButton = (node) => {
     return (
         <div style={styles.expandBtn} onClick={handleExpandClick}>
             <span>{node.data._directSubordinates}</span>
-            {node.children ? <ExpandMoreIcon /> : <ExpandLessIcon />}
+            <span style={styles.arrow}>  {node.children ? <ExpandMoreIcon /> : <ExpandLessIcon />}</span>
         </div>
     );
 };

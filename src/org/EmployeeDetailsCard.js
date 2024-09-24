@@ -107,8 +107,11 @@ const EmployeeDetailsCard = (props) => {
             <button style={styles.cardCloseBtn} onClick={props.handleClose}>
                 <CloseIcon />
             </button>
+
             {props.employee.team === "" ? (
+
                 <div>
+
                     <div style={styles.cardHeader}>
                         <img
                             style={styles.cardImg}
@@ -118,6 +121,7 @@ const EmployeeDetailsCard = (props) => {
                         <h2 style={styles.cardName}>{props.employee.name}</h2>
                         <p cstyle={styles.cardRole}>{props.employee.positionName}</p>
                     </div>
+
                     <div style={styles.cardBody}>
                         <div style={styles.cardItem}>
                             <p style={styles.cardItemLabel}>Phone:</p>
@@ -138,32 +142,35 @@ const EmployeeDetailsCard = (props) => {
                             </div>
                         )}
                     </div>
+
                 </div>
-            ) : (
-                <div>
-                    <div style={styles.cardHeader}>
-                        <h2>{props.employee.team} Team </h2>
+            )
+                :
+                (
+                    <div>
+                        <div style={styles.cardHeader}>
+                            <h2>{props.employee.team} Team</h2>
+                        </div>
+                        <h4>Team Members:</h4>
+                        <div style={styles.cardBodyTeamMembers}>
+                            {props.employees
+                                .filter(
+                                    (employee) => employee.parentId === props.employee.id
+                                )
+                                .map((employee) => (
+                                    <div style={styles.cardItemTeam} key={employee.id}>
+                                        <img
+                                            style={styles.cardItemImg}
+                                            src={employee.imageUrl}
+                                            alt="Profile"
+                                        />
+                                        <p style={styles.cardItemName}>{employee.name}</p>
+                                        <p style={styles.cardItemRole}>{employee.positionName}</p>
+                                    </div>
+                                ))}
+                        </div>
                     </div>
-                    <h4>Team Members:</h4>
-                    <div style={styles.cardBodyTeamMembers}>
-                        {props.employees
-                            .filter(
-                                (employee) => employee.parentId === props.employee.id
-                            )
-                            .map((employee) => (
-                                <div style={styles.cardItemTeam} key={employee.id}>
-                                    <img
-                                        style={styles.cardItemImg}
-                                        src={employee.imageUrl}
-                                        alt="Profile"
-                                    />
-                                    <p style={styles.cardItemName}>{employee.name}</p>
-                                    <p style={styles.cardItemRole}>{employee.positionName}</p>
-                                </div>
-                            ))}
-                    </div>
-                </div>
-            )}
+                )}
             <div style={styles.cardItem}>
                 <p style={styles.cardItemLabel}>Description:</p>
                 <p style={styles.cardItemValue}>{props.employee.description}</p>
