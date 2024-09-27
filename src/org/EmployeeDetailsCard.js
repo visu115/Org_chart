@@ -132,8 +132,8 @@ const EmployeeDetailsCard = (props) => {
                             <p style={styles.cardItemValue}>{props.employee.email}</p>
                         </div>
                         <div style={styles.cardItem}>
-                            <p style={styles.cardItemLabel}>Location:</p>
-                            <p style={styles.cardItemValue}>{props.employee.location}</p>
+                            <p style={styles.cardItemLabel}>Position:</p>
+                            <p style={styles.cardItemValue}>{props.employee.positionName}</p>
                         </div>
                         {props.employee.department && (
                             <div style={styles.cardItem}>
@@ -171,10 +171,7 @@ const EmployeeDetailsCard = (props) => {
                         </div>
                     </div>
                 )}
-            <div style={styles.cardItem}>
-                <p style={styles.cardItemLabel}>Description:</p>
-                <p style={styles.cardItemValue}>{props.employee.description}</p>
-            </div>
+
         </div>
     );
 };

@@ -69,6 +69,7 @@ const styles = {
     },
     icon: {
         marginRight: "0.5rem",
+        fontSize: '10px'
     },
 };
 
@@ -91,7 +92,6 @@ const CustomNodeContent = (props) => {
                                 <div style={styles.nodeRole}>{props.data.phone}</div>
                                 {props.data.department && (
                                     <div style={styles.nodeDepartment}>
-                                        <AccountBoxIcon style={styles.icon} />
                                         <div>{props.data.department}</div>
                                     </div>
                                 )}

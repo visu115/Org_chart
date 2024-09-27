@@ -7,7 +7,9 @@ const employees = [
         phone: '562 - 237',
         email: 'duraisamy.p@gmail.com',
         team: "",
+        department: 'Director',
         positionName: 'MD'
+
     },
     {
         id: 2,
@@ -17,6 +19,7 @@ const employees = [
         phone: '562 - 238',
         email: 'naveen.kumar@gmail.com',
         team: "",
+        department: 'Executive Director',
         positionName: 'ED'
     },
     {
@@ -27,6 +30,7 @@ const employees = [
         phone: '562 - 239',
         email: 'tamilarasi.duraisamy@gmail.com',
         team: "",
+        department: 'Director',
         positionName: 'JMD'
     },
     {
@@ -37,6 +41,7 @@ const employees = [
         phone: '562 - 240',
         email: 'sruthi.suresh@gmail.com',
         team: "",
+        department: 'Director',
         positionName: 'FD'
     },
     {
@@ -64,6 +69,7 @@ const employees = [
         email: 'deepa@gmail.com',
         positionName: 'Developer',
         team: "",
+        department: 'IT',
     },
     {
         id: 19,
@@ -74,6 +80,7 @@ const employees = [
         email: 'prem.kumar@gmail.com',
         positionName: 'Developer',
         team: "",
+        department: 'IT',
     },
     {
         id: 20,
@@ -84,6 +91,7 @@ const employees = [
         email: 'prem.kumar@gmail.com',
         positionName: 'Developer',
         team: "",
+        department: 'IT',
     },
     {
         id: 21,
@@ -94,6 +102,7 @@ const employees = [
         email: 'prem.kumar@gmail.com',
         positionName: 'Developer',
         team: "",
+        department: 'IT',
     },
     {
         id: 22,
@@ -104,6 +113,7 @@ const employees = [
         email: 'prem.kumar@gmail.com',
         positionName: 'Developer',
         team: "",
+        department: 'IT',
     },
     {
         id: 23,
@@ -114,6 +124,7 @@ const employees = [
         email: 'prem.kumar@gmail.com',
         positionName: 'Developer',
         team: "",
+        department: 'IT',
     },
     {
         id: 23,
@@ -124,6 +135,7 @@ const employees = [
         email: 'Vinith@gmail.com',
         positionName: 'Developer',
         team: "",
+        department: 'IT',
     },
     {
         id: 24,
@@ -134,6 +146,7 @@ const employees = [
         email: 'prem.kumar@gmail.com',
         positionName: 'Developer',
         team: "",
+        department: 'IT',
     },
     {
         id: 25,
@@ -144,6 +157,7 @@ const employees = [
         email: 'prem.kumar@gmail.com',
         positionName: 'Developer',
         team: "",
+        department: 'IT',
     },
     {
         id: 26,
@@ -154,6 +168,7 @@ const employees = [
         email: 'prem.kumar@gmail.com',
         positionName: 'Developer',
         team: "",
+        department: 'IT',
     },
     {
         id: 27,
@@ -164,6 +179,7 @@ const employees = [
         email: 'deepa@gmail.com',
         positionName: 'System Admin',
         team: "",
+        department: 'IT',
     },
     {
         id: 28,
@@ -174,6 +190,7 @@ const employees = [
         email: 'deepa@gmail.com',
         positionName: 'Ai Vision',
         team: "",
+        department: 'IT',
     },
     {
         id: 29,
@@ -184,6 +201,7 @@ const employees = [
         email: 'deepa@gmail.com',
         positionName: 'Ai Vision',
         team: "",
+        department: 'IT',
     },
     {
         id: 9,
@@ -194,6 +212,7 @@ const employees = [
         email: 'senthil.kumar@gmail.com',
         positionName: 'Deputy General Manager',
         team: "",
+        department: 'Sales',
     },
     {
         id: 30,
@@ -204,6 +223,7 @@ const employees = [
         email: 'senthil.kumar@gmail.com',
         positionName: 'Jr.Automation Engineer',
         team: "",
+        department: 'Sales',
     },
     {
         id: 31,
@@ -214,6 +234,7 @@ const employees = [
         email: 'senthil.kumar@gmail.com',
         positionName: 'Automation Engineer',
         team: "",
+        department: 'Sales',
     },
     {
         id: 32,
@@ -224,6 +245,7 @@ const employees = [
         email: 'senthil.kumar@gmail.com',
         positionName: 'Sr.Automation Engineer',
         team: "",
+        department: '',
     },
     {
         id: 10,
@@ -232,8 +254,9 @@ const employees = [
         imageUrl: 'http://148.66.135.245:8080/ERP_COPY//includes/employee_image/Divyakumari_P.jpg',
         phone: '562 - 245',
         email: 'divya.kumari@gmail.com',
-        positionName: 'Admin & HR',
+        positionName: 'General Manager',
         team: "",
+        department: 'HR',
     },
     {
         id: 33,
@@ -254,6 +277,7 @@ const employees = [
         email: 'Mahalakshmi.d@gmail.com',
         positionName: 'Executive',
         team: "",
+        department: 'HR',
     },
     {
         id: 36,
@@ -264,6 +288,7 @@ const employees = [
         email: 'Vanitha.d@gmail.com',
         positionName: 'Executive',
         team: "",
+        department: 'HR',
     },
     {
         id: 37,
@@ -274,6 +299,7 @@ const employees = [
         email: 'Priyanka.d@gmail.com',
         positionName: 'Front Office Executive',
         team: "",
+        department: 'Admin',
     },
     {
         id: 38,
@@ -284,6 +310,7 @@ const employees = [
         email: 'kalpana.d@gmail.com',
         positionName: 'Executive',
         team: "",
+        department: 'Admin',
     },
     {
         id: 39,
@@ -294,6 +321,7 @@ const employees = [
         email: 'kalpana.d@gmail.com',
         positionName: 'Email Incharge',
         team: "",
+        department: 'Admin',
     },
     {
         id: 40,
@@ -304,6 +332,7 @@ const employees = [
         email: 'kalpana.d@gmail.com',
         positionName: 'Executive',
         team: "",
+        department: 'HR',
     },
     {
         id: 41,
@@ -314,6 +343,7 @@ const employees = [
         email: 'kalpana.d@gmail.com',
         positionName: 'House Keeping',
         team: "",
+        department: '',
     },
     {
         id: 42,
@@ -324,6 +354,7 @@ const employees = [
         email: 'kalpana.d@gmail.com',
         positionName: 'House Keeping',
         team: "",
+        department: '',
     },
     {
         id: 43,
@@ -334,6 +365,7 @@ const employees = [
         email: 'kalpana.d@gmail.com',
         positionName: 'House Keeping',
         team: "",
+        department: '',
     },
     {
         id: 44,
@@ -344,6 +376,7 @@ const employees = [
         email: 'kalpana.d@gmail.com',
         positionName: 'House Keeping',
         team: "",
+        department: '',
     },
     {
         id: 45,
@@ -354,6 +387,7 @@ const employees = [
         email: 'kalpana.d@gmail.com',
         positionName: 'House Keeping',
         team: "",
+        department: '',
     },
     {
         id: 12,
@@ -364,6 +398,7 @@ const employees = [
         email: 'amirtharaj.a@gmail.com',
         positionName: 'General Manager',
         team: "",
+        department: 'Sales',
     },
     {
         id: 13,
@@ -374,6 +409,7 @@ const employees = [
         email: 'gomathi.s@gmail.com',
         positionName: 'Asst General Manager',
         team: "",
+        department: 'IT',
     },
     {
         id: 14,
@@ -384,6 +420,7 @@ const employees = [
         email: 'srinivasaraju@gmail.com',
         positionName: 'General Manager',
         team: "",
+        department: 'Sales',
     },
     {
         id: 15,
@@ -394,6 +431,7 @@ const employees = [
         email: 'ayaasamy@gmail.com',
         positionName: 'General Manager',
         team: "",
+        department: 'Weighing',
     },
     {
         id: 16,
@@ -404,6 +442,7 @@ const employees = [
         email: 'santhakumar@gmail.com',
         positionName: 'Coimbatore Regional Director',
         team: "",
+        department: 'Sales',
     },
     {
         id: 17,
@@ -415,6 +454,7 @@ const employees = [
         location: 'Chennai',
         positionName: 'Deputy General Manager',
         team: "",
+        department: 'Cost Audit',
     },
     {
         id: 46,
@@ -426,6 +466,7 @@ const employees = [
         location: 'Chennai',
         positionName: 'General Manager',
         team: "",
+        department: 'Purchase',
     },
     {
         id: 47,
@@ -455,8 +496,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Sivasankari@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Sr.Manager',
         team: "",
+        department: 'Purchase',
     },
     {
         id: 52,
@@ -466,8 +508,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Pushpalatha@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Executive',
         team: "",
+        department: 'Purchase',
     },
     {
         id: 53,
@@ -477,8 +520,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Executive',
         team: "",
+        department: 'Purchase',
     },
     {
         id: 54,
@@ -488,8 +532,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Executive',
         team: "",
+        department: 'Purchase',
     },
     {
         id: 55,
@@ -499,8 +544,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Executive',
         team: "",
+        department: 'Purchase',
     },
     {
         id: 56,
@@ -510,8 +556,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Executive',
         team: "",
+        department: 'Purchase',
     },
     {
         id: 57,
@@ -521,8 +568,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Manager',
         team: "",
+        department: 'Billing',
     },
     {
         id: 58,
@@ -532,8 +580,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Executive',
         team: "",
+        department: 'Billing',
     },
     {
         id: 59,
@@ -543,8 +592,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Executive',
         team: "",
+        department: 'Billing',
     },
     {
         id: 60,
@@ -554,8 +604,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Executive',
         team: "",
+        department: 'Billing',
     },
     {
         id: 61,
@@ -565,8 +616,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Executive',
         team: "",
+        department: 'Billing',
     },
     {
         id: 62,
@@ -576,8 +628,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Executive',
         team: "",
+        department: 'Billing',
     },
     {
         id: 63,
@@ -587,8 +640,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Executive',
         team: "",
+        department: 'Billing',
     },
     {
         id: 64,
@@ -598,8 +652,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Manager',
         team: "",
+        department: 'Logistics',
     },
     {
         id: 65,
@@ -624,8 +679,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Executive',
         team: "",
+        department: 'Stores',
     },
     {
         id: 69,
@@ -635,8 +691,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Executive',
         team: "",
+        department: 'Stores',
     },
     {
         id: 70,
@@ -646,8 +703,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Jr.Executive',
         team: "",
+        department: 'Stores',
     },
     {
         id: 71,
@@ -657,8 +715,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Jr.Executive',
         team: "",
+        department: 'Stores-',
     },
     {
         id: 72,
@@ -668,8 +727,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Security',
         team: "",
+        department: 'Logistics',
     },
     {
         id: 73,
@@ -679,8 +739,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Security',
         team: "",
+        department: 'Logistics',
     },
     {
         id: 74,
@@ -690,8 +751,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Driveway Salesman',
         team: "",
+        department: 'Logistics',
     },
     {
         id: 75,
@@ -701,8 +763,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Driveway Salesman',
         team: "",
+        department: 'Logistics',
     },
     {
         id: 76,
@@ -712,8 +775,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Sr.Automation Engineer',
         team: "",
+        department: 'Sales',
     },
     {
         id: 77,
@@ -723,8 +787,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Automation Engineer',
         team: "",
+        department: 'Sales',
     },
     {
         id: 78,
@@ -734,8 +799,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Jr.Automation Engineer',
         team: "",
+        department: 'Sales',
     },
     {
         id: 79,
@@ -745,8 +811,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Automation Engineer',
         team: "",
+        department: 'Sales',
     },
     {
         id: 80,
@@ -756,8 +823,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Automation Engineer',
         team: "",
+        department: 'Sales',
     },
     {
         id: 81,
@@ -767,30 +835,33 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Automation Engineer',
         team: "",
+        department: 'Sales',
     },
     {
         id: 82,
         parentId: 12,
-        name: 'Ezhilan',
+        name: 'Ezhilan ',
         imageUrl: 'http://148.66.135.245:8080/ERP_COPY//includes/employee_image/Ezhilan%20%20R.jpg',
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Sr.Manager',
         team: "",
+        department: 'Sales',
     },
     {
         id: 83,
         parentId: 12,
-        name: 'Sundar',
+        name: 'Sundar S',
         imageUrl: '444',
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Automation Engineer',
         team: "",
+        department: 'Sales',
     },
     {
         id: 84,
@@ -800,8 +871,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: '',
         team: "",
+        department: '',
     },
     {
         id: 85,
@@ -811,8 +883,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Enginner-FA Support',
         team: "",
+        department: 'Application',
     },
     {
         id: 86,
@@ -822,8 +895,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Sr.Manager',
         team: "",
+        department: 'Sales',
     },
     {
         id: 87,
@@ -833,8 +907,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Asst.Manager',
         team: "",
+        department: 'Sales',
     },
     {
         id: 88,
@@ -844,8 +919,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Asst.General Manager',
         team: "",
+        department: 'Sales',
     },
     {
         id: 89,
@@ -855,8 +931,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: '',
         team: "",
+        department: '',
     },
     {
         id: 90,
@@ -866,8 +943,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Jr.Automation Engineer ',
         team: "",
+        department: 'Sales',
     },
     {
         id: 91,
@@ -877,8 +955,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Automation Engineer',
         team: "",
+        department: 'Sales',
     },
     {
         id: 92,
@@ -888,8 +967,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Automation Engineer',
         team: "",
+        department: 'Sales',
     },
     {
         id: 93,
@@ -899,8 +979,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Jr.Automation Engineer',
         team: "",
+        department: 'Sales',
     },
     {
         id: 94,
@@ -910,8 +991,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Jr.Automation Engineer',
         team: "",
+        department: 'Sales',
     },
     {
         id: 95,
@@ -921,8 +1003,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: '',
         team: "",
+        department: '',
     },
     {
         id: 96,
@@ -938,6 +1021,7 @@ const employees = [
         location: 'Chennai',
         positionName: 'Executive',
         team: "",
+        department: 'INNO',
     },
     {
         id: 98,
@@ -949,6 +1033,7 @@ const employees = [
         location: 'Chennai',
         positionName: 'Technician',
         team: "",
+        department: 'INNO',
     },
     {
         id: 99,
@@ -960,6 +1045,7 @@ const employees = [
         location: 'Chennai',
         positionName: 'Jr.Technician',
         team: "",
+        department: 'Service',
     },
     {
         id: 100,
@@ -969,8 +1055,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Jr.Technician',
+        positionName: 'Jr.Executive',
         team: "",
+        department: 'INNO',
     },
     {
         id: 101,
@@ -982,6 +1069,7 @@ const employees = [
         location: 'Chennai',
         positionName: 'Automation Engineer',
         team: "",
+        department: 'Sales',
     },
     {
         id: 102,
@@ -993,6 +1081,7 @@ const employees = [
         location: 'Chennai',
         positionName: 'Automation Engineer',
         team: "",
+        department: 'Sales',
     },
     {
         id: 103,
@@ -1002,8 +1091,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Automation Engineer',
+        positionName: '',
         team: "",
+        department: '',
     },
     {
         id: 104,
@@ -1015,6 +1105,7 @@ const employees = [
         location: 'Chennai',
         positionName: 'Automation Engineer',
         team: "",
+        department: 'Sales',
     },
     {
         id: 105,
@@ -1024,8 +1115,9 @@ const employees = [
         phone: '562 - 251',
         email: 'Rathi@gmail.com',
         location: 'Chennai',
-        positionName: 'Operations Manager',
+        positionName: 'Automation Engineer',
         team: "",
+        department: 'Sales',
     },
 ];
 export default employees;

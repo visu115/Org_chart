@@ -34,7 +34,7 @@ const OrganizationalChart = (props) => {
                 .container(d3Container.current)
                 .data(props.data)
                 .nodeWidth((d) => 350)
-                .nodeHeight((d) => 165)
+                .nodeHeight((d) => 180)
                 .compactMarginBetween((d) => 80)
                 .onNodeClick((d) => {
                     toggleDetailsCard(d.data.id);
