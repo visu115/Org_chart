@@ -61,7 +61,7 @@ const styles = {
     nodeDepartment: {
         padding: "0.5rem",
         textAlign: "center",
-        display: "flex",
+        // display: "flex",
         alignItems: "center",
         backgroundColor: "#ffcb77",
         borderRadius: "1rem",
@@ -92,7 +92,7 @@ const CustomNodeContent = (props) => {
                                 <div style={styles.nodeRole}>{props.data.phone}</div>
                                 {props.data.department && (
                                     <div style={styles.nodeDepartment}>
-                                        <div>{props.data.department}</div>
+                                        <div style={{ textAlign: 'center' }}>{props.data.department}</div>
                                     </div>
                                 )}
                             </div>
