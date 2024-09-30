@@ -140,7 +140,7 @@ const employees = [
     {
         id: 24,
         parentId: 5,
-        imageUrl: 'http://148.66.135.245:8080/ERP_COPY//includes/employee_image/Capture9.jpg',
+        imageUrl: 'http://148.66.135.245:8080/ERP_COPY//includes/employee_image/Capture9.png',
         name: 'Visu',
         phone: '562 - 243',
         email: 'prem.kumar@gmail.com',
