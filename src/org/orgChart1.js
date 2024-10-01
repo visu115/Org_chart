@@ -5,12 +5,7 @@ import CustomExpandButton from "./orgExpandButton";
 import CustomNodeContent from "./orgNodeContent";
 import EmployeeDetailsCard from "./EmployeeDetailsCard";
 
-const styles = {
-    orgChart: {
-        height: "calc(100vh - 60px)",
-        backgroundColor: "azure",
-    },
-};
+
 
 const OrganizationalChart = (props) => {
     const d3Container = useRef(null);
@@ -54,7 +49,7 @@ const OrganizationalChart = (props) => {
     }, [props.data]);
 
     return (
-        <div style={styles.orgChart} ref={d3Container}>
+        <div ref={d3Container}>
             {cardShow && (
                 <EmployeeDetailsCard
                     employees={props.data}
