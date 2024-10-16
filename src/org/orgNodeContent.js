@@ -1,10 +1,10 @@
 import React from "react";
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
-
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 const styles = {
     nodeContainer: {
         minHeight: "170px",
-        backgroundColor: "#227c9d",
+        backgroundColor: "#FFFFFF",
         color: "#227c9d",
         display: "flex",
         justifyContent: "center",
@@ -28,7 +28,7 @@ const styles = {
     },
     nodeTeamName: {
         marginBottom: "0.5rem",
-        color: "#fef9ef",
+        color: "#5499c7",
         fontSize: "1.5rem",
     },
     nodeTeamMemberImg: {
@@ -38,34 +38,37 @@ const styles = {
         margin: "0.2rem",
     },
     nodeImg: {
-        width: "90px",
-        height: "90px",
+        width: "110px",
+        height: "110px",
         borderRadius: "1rem",
+
     },
     nodeInfo: {
         marginLeft: "1.5rem",
-        color: "#fef9ef",
+        color: "#5499c7",
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-evenly",
     },
     nodeName: {
         paddingBottom: "0.3rem",
-        fontSize: "1.5rem",
+        fontSize: "1.1rem",
         fontWeight: "bold",
     },
     nodeRole: {
         paddingBottom: "0.5rem",
-        fontSize: "1.2rem",
+        fontSize: "1rem",
+        // display: 'flex',
+        // alignItems: 'center',
     },
     nodeDepartment: {
         padding: "0.5rem",
         textAlign: "center",
         // display: "flex",
         alignItems: "center",
-        backgroundColor: "#ffcb77",
+        backgroundColor: "#5499C7",
         borderRadius: "1rem",
-        color: "#227c9d",
+        color: "#FFFFFF",
     },
     icon: {
         marginRight: "0.5rem",
@@ -89,7 +92,10 @@ const CustomNodeContent = (props) => {
                             <div style={styles.nodeInfo}>
                                 <div style={styles.nodeName}>{props.data.name}</div>
                                 <div style={styles.nodeRole}>{props.data.positionName}</div>
+                                {/* <div style={{ display: 'flex', alignItems: 'center' }}> */}
+                                {/* <div className="ph_icon"><LocalPhoneIcon color="#5499c7" /></div> */}
                                 <div style={styles.nodeRole}>{props.data.phone}</div>
+                                {/* </div> */}
                                 {props.data.department && (
                                     <div style={styles.nodeDepartment}>
                                         <div style={{ textAlign: 'center' }}>{props.data.department}</div>
